@@ -1,1 +1,4 @@
 
+This is documentation for homework3 API. 
+This API basicly did the same thing of what I was showed on the class.
+send a request contain a name and return a name 
