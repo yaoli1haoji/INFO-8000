@@ -2,3 +2,12 @@
 This is documentation for homework3 API. 
 This API basicly did the same thing of what I was showed on the class.
 send a request contain a name and return a name 
+
+EX: request http://127.0.0.1:5000/
+    return name:world
+EX: request http://127.0.0.1:5000/?name =roy 
+    return name:roy
+EX: request http://127.0.0.1:5000/create_default_experiment 
+    return [{"crop":"maize","experiment_ID":1,"treatment":"living_mulch"},{"crop":"maize","experiment_ID":2,"treatment":"Crims
+onClover"},{"crop":"maize","experiment_ID":3,"treatment":"CerealRye"},{"crop":"maize","experiment_ID":4,"treatment"
+:"Nocover"}]
