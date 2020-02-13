@@ -30,7 +30,7 @@ Add /etc/nginx/sites-enabled/reverseproxy
 test_app_launcher.conf 
 [program:test_app_launcher]
 user=root
-directory=/home/li_h6/INFO-8000/
+directory=/home/li_h6/INFO-8000/homework3/
 command=/home/li_h6/miniconda3/bin/gunicorn --workers 3 --bind 127.0.0.1:5000 test_app:app
 autostart=true
 autorestart=true
